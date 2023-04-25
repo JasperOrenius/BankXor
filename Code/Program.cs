@@ -66,7 +66,7 @@ namespace FileEncryptionUsingXOR
                 string dataCollected = ReadDataFromFile();
                 Console.WriteLine("Money added: $" + moneyAmount + "\nPress any key to close this window.");
                 program.WriteDataFile();
-                Console.Write("Deposit more or close window (Depsoit/Close): ");
+                Console.Write("Deposit more or close window (Deposit/Close): ");
                 while(validInput != true)
                 {
                     var userInput = Console.ReadLine();
