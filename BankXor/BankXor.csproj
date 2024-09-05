@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3F203B4B-DBA3-4752-B14B-5B8593795980}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FileEncryptionUsingXOR</RootNamespace>
-    <AssemblyName>FileEncryptionUsingXOR</AssemblyName>
+    <RootNamespace>BankXor</RootNamespace>
+    <AssemblyName>BankXor</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="Bank.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

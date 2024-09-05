@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileEncryptionUsingXOR", "FileEncryptionUsingXOR.csproj", "{3F203B4B-DBA3-4752-B14B-5B8593795980}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankXor", "BankXor.csproj", "{3F203B4B-DBA3-4752-B14B-5B8593795980}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
