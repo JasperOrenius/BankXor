@@ -44,34 +44,32 @@ public static string EncryptedData(string data)
 - **.NET Framework 4.8**: Ensure that the .NET Framework 4.8 is installed on your machine. You can download the [Developer Pack](https://dotnet.microsoft.com/download/dotnet-framework/net48) if it's not already installed.
 - **Visual Studio 2019** or later: Install Visual Studio with the **.NET desktop development** workload to develop and build .NET Framework applications.
 
-#### Clone the Repository
-1. **Clone the repository** to your local machine using Git:
+### Clone the Repository
+
+1. Clone the repository to your local machine:
+
     ```bash
     git clone https://github.com/your-username/BankXor.git
     ```
 
-#### Building and Running the Application
+### Building and Running the Application
 
-1. **Navigate to the project directory** if you're not already there:
-    ```bash
-    cd BankXor
-    ```
+1. **Open the Project in Visual Studio**:
+    - Navigate to the cloned `BankXor` directory.
+    - Open the `BankXor.sln` file with Visual Studio.
 
-2. **Build the project** using .NET Core CLI:
-    ```bash
-    dotnet build
-    ```
+2. **Build the Solution**:
+    - In Visual Studio, go to the `Build` menu and select `Build Solution`. This will restore any required packages and build the application.
 
-3. **Run the application**:
-    ```bash
-    dotnet run
-    ```
+3. **Run the Application**:
+    - After the solution is built, go to the `Debug` menu and select `Start Without Debugging` or press `Ctrl + F5`. This will launch the console application.
 
-4. **Follow the on-screen instructions** to interact with the application:
-    - **Create Account**: Register a new account with a username and password.
-    - **Log In**: Access your account using the username and password you created.
-    - **Deposit and Withdraw**: Manage your account balance by depositing or withdrawing funds.
-    - **View Balance**: Check your current account balance.
+4. **Interact with the Application**:
+    - Once the application is running, follow the on-screen prompts to:
+        - **Create an Account**: Set up a new account with a username and password.
+        - **Log In**: Access your account using the credentials you created.
+        - **Deposit/Withdraw**: Manage your balance by depositing or withdrawing funds.
+        - **View Balance**: Check the current balance of your account.
 
 ## Configuration
 - The application stores account data in a text file named `BankAccounts.txt` located in the same directory as the executable.
