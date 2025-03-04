@@ -49,7 +49,7 @@ public static string EncryptedData(string data)
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/BankXor.git
+    git clone https://github.com/JasperOrenius/BankXor.git
     ```
 
 ### Building and Running the Application
